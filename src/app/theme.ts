@@ -19,8 +19,17 @@ export function useAppTheme() {
             main: '#1976d2',
           },
           background: {
-            default: prefersDarkMode ? '#121212' : '#ffffff',
+            default: prefersDarkMode ? '#121212' : '#f5f5f5',
             paper: prefersDarkMode ? '#1e1e1e' : '#ffffff',
+          },
+        },
+        components: {
+          MuiCard: {
+            styleOverrides: {
+              root: {
+                boxShadow: prefersDarkMode ? '0 4px 6px rgba(0, 0, 0, 0.4)' : '0 4px 6px rgba(0, 0, 0, 0.1)',
+              },
+            },
           },
         },
       }),
