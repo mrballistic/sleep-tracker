@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 😴 Sleep Pattern Tracking Application
 
-## Getting Started
+A modern web application to help you track and visualize your sleep patterns for better rest and health awareness.
 
-First, run the development server:
+## ✨ Features
 
+- 📝 Easy sleep data entry
+- 📊 Weekly sleep pattern visualization
+- 📅 Monthly sleep pattern calendar view
+- 📈 Sleep statistics and insights
+- 🌓 Automatic dark mode support
+- 💾 Local storage for data persistence
+
+## 🛠️ Tech Stack
+
+- ⚛️ React with Next.js
+- 🎨 Material UI (MUI)
+- 📱 Responsive design
+- 🔍 TypeScript for type safety
+- 📊 Data visualization (coming soon)
+
+## 🚀 Getting Started
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/sleep-tracker.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## 📱 Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. Use the sleep entry form to log your sleep data
+2. View your sleep patterns in the weekly visualization
+3. Check monthly trends in the calendar view
+4. Track your progress with statistics
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔜 Coming Soon
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🍎 Apple Health integration
+- 📊 Advanced analytics
+- 💫 Sleep quality insights
+- 📤 Data export functionality
+- 🎯 Sleep goal setting
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/sleep-tracker/issues).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
+
+## 👥 Authors
+
+- Initial work - [Your Name]
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors
+- Inspired by the need for better sleep tracking
